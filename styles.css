@@ -74,19 +74,14 @@ ol li {
     background-color: #4f4c5d;
 }
 
-#sorting a{
+.sorting a{
+    color: darkblue;
     margin: 20px;
     padding: 10px;
     text-align: center;
     vertical-align: center;
     list-style: none;
     font-size: x-large;
-}
-
-#sorting input[type="checkbox"]{
-    width: 30px;
-    height: 30px;
-    padding: 20px;
 }
 
 #buttons button{
