@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список дел</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="functions.js"></script>
+</head>
+<body>
+<header>
+    <h1>список дел</h1>
+    <div id="add">
+        <input id="input" type="text" placeholder="что ты хочешь сделать?">
+        <button id="addTask" onclick="Add()">+ добавить задачу</button>
+    </div>
+</header>
+<main>
+    <ol id="tasks">
+    </ol>
+    <div id="sorting">
+        <a><input id="not-done" type="checkbox"> незаконченные </a>
+        <a><input id="done" type="checkbox"> законченные </a>
+        <a><input id="all" type="checkbox" checked="checked"> все </a>
+    </div>
+    <div id="buttons">
+        <button class="save">Сохранить</button>
+        <button class="clear">Очистить</button>
+        <button class="showTips">Справка</button>
+    </div>
+</main>
+</body>
+</html>
